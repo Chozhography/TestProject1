@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="India">
+
+<listeners>
+
+
+<listener class-name="com.india.utilities.Reporting">
+
+</listener>
+
+</listeners>
+
+
+
+  <test name="Test">
+  <parameter name="browser" value "chrome"/>
+    <classes>
+      <class name="com.india.testcases.Tc_LoginTest_001"/>
+    </classes>
+  </test> 
+  
+</suite> 
